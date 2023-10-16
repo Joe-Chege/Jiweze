@@ -1,0 +1,213 @@
+css
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set the primary font for headings and titles */
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+/* Set the secondary font for body text and content */
+p, ul, li {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Define the primary colors */
+:root {
+    --primary-green: #33CC66;
+    --primary-orange: #FFA500;
+    --primary-blue: #007FFF;
+}
+
+/* Define the secondary colors */
+:root {
+    --secondary-yellow: #FFD700;
+    --secondary-purple: #800080;
+    --secondary-red: #FF6347;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: var(--primary-green);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+}
+
+/* Style the hero section */
+header {
+    background-color: var(--primary-blue);
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+/*.hero-image {
+    /* Add styles for the hero image here */
+    /* Example: background-image: url('your-image.jpg'); */
+    /* Example: background-size: cover; */
+
+
+h1 {
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.cta-button {
+    background-color: var(--primary-orange);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--secondary-yellow);
+}
+
+/* Style the About Us section */
+#about {
+    background-color: var(--primary-yellow);
+    padding: 80px 0;
+}
+
+/* Style the Programs section */
+#programs {
+    background-color: var(--primary-purple);
+    padding: 80px 0;
+}
+
+.program {
+    background-color: white;
+    color: var(--primary-purple);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style the Resources section */
+#resources {
+    background-color: var(--primary-red);
+    padding: 80px 0;
+}
+
+.resource {
+    background-color: white;
+    color: var(--primary-red);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* Style the Blog section */
+#blog {
+    background-color: var(--primary-blue);
+    color: white;
+    padding: 80px 0;
+}
+
+.blog-post {
+    background-color: var(--primary-green);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.blog-post img {
+    max-width: 100%;
+    height: auto;
+}
+
+.read-more {
+    color: var(--primary-orange);
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.read-more:hover {
+    color: var(--secondary-yellow);
+}
+
+/* Style the Events section */
+#events {
+    background-color: var(--primary-purple);
+    color: white;
+    padding: 80px 0;
+}
+
+.event {
+    background-color: var(--primary-red);
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.event-link {
+    color: var(--primary-blue);
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+
+.event-link:hover {
+    color: var(--secondary-yellow);
+}
+
+/* Style the Contact Us section */
+#contact {
+    background-color: var(--primary-orange);
+    color: white;
+    padding: 80px 0;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-icon {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 24
+
+px;
+}
+
+/* Style the Footer */
+footer {
+    background-color: var(--primary-green);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
